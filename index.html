@@ -27,7 +27,11 @@
           <a class="logo" href="./index.html"><span class="text-blue">Web</span>Studio</a>
           <nav>
             <ul class="menu-nav">
-              <li class="list-item"><a class="menu-list active" href="./index.html"><span class="text-blue">Agencja</span></a></li>
+              <li class="list-item">
+                <a class="menu-list active" href="./index.html"
+                  ><span class="text-blue">Agencja</span></a
+                >
+              </li>
               <li class="list-item"><a href="./portfolio.html">Portfolio</a></li>
               <li class="list-item"><a href="#">Kontakt</a></li>
             </ul>
@@ -384,6 +388,16 @@
               </ul>
             </div>
           </div>
+          <div>
+            <p>Zapisz się do newslettera</p>
+            <input type="email" name="email" />
+            <button type="submit">
+              Zapisz się
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
     </footer>
@@ -395,8 +409,75 @@
             <use href="./images/icons.svg#icon-Vector-close-1"></use>
           </svg>
         </button>
+        <div class="model-form">
+          <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+          <form class="modal-all-form" name="form" autocomplete="on">
+            <label>
+              <span class="small-title-form">Imie</span>
+              <div class="modal-svg-tekst">
+                <svg class="svg-model-form" width="12" height="12">
+                  <use href="./images/icons.svg#icon-name"></use>
+                </svg>
+                <input class="border-input-form" type="text" name="username" />
+              </div>
+            </label>
+            <label>
+              <span class="small-title-form">Telefon</span>
+              <div class="modal-svg-tekst">
+                <svg width="13" height="13">
+                  <use href="./images/icons.svg#icon-phone_number"></use>
+                </svg>
+                <input class="border-input-form" type="tel" name="phone_number" />
+              </div>
+            </label>
+            <label>
+              <span class="small-title-form">Email</span>
+              <div class="modal-svg-tekst">
+                <svg width="15" height="12">
+                  <use href="./images/icons.svg#icon-email_addres"></use>
+                </svg>
+                <input class="border-input-form" type="email" name="email" />
+              </div>
+            </label>
+            <label>
+              <span class="small-title-form">Komentarz</span>
+              <textarea
+                class="textarea-modal"
+                name="comment"
+                rows="5"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+          </form>
+          <div class="modal-statue-tekst">
+            <div class="checbox">
+              <input type="checkbox" name="statute" value="statute" />
+              <label>
+                <svg width="16" height="15">
+                  <use href="./images/icons.svg#icon-checkbox-vector"></use>
+                </svg>
+                <svg width="11" height="8">
+                  <use href="./images/icons.svg#icon-accept"></use>
+                </svg>
+              </label>
+            </div>
+            <p class="statute-text">
+              Oświadczam iż akceptuję <a href="#" class="text-blue">Regulamin</a> i
+              <a href="#" class="text-blue">Politykę Prywatności.</a>
+            </p>
+          </div>
+          <div class="modal-send">
+            <button class="modal-send-button" type="submit">Wyślij</button>
+          </div>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
+<div class="chcecbox">
+  <div class="checkbox__control">
+    <input type="checkbox" id="check" name="check" value="1" class="checkbox__input" />
+    <label class="checkbox__label" for="check"></label>
+  </div>
+</div>
