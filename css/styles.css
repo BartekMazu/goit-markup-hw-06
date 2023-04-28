@@ -799,7 +799,7 @@ label {
 .checkbox__label {
   cursor: pointer;
 }
-.checkbox__label2 {
+.checkbox__label-2 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -813,7 +813,7 @@ label {
 .checkbox__input:focus + .checkbox__label {
   fill: #2196f3;
 }
-.checkbox__input:focus:checked + .checkbox__label + .checkbox__label2 {
+.checkbox__input:focus:checked + .checkbox__label + .checkbox__label-2 {
   fill: #212121;
   border: #212121 1px solid;
 }
@@ -823,7 +823,7 @@ label {
   height: 100%;
   clip: rect(1px, 1px, 1px, 1px);
 }
-.checkbox__input:checked + .checkbox__label + .checkbox__label2 {
+.checkbox__input:checked + .checkbox__label + .checkbox__label-2 {
   display: flex;
   justify-content: center;
   align-items: center;
