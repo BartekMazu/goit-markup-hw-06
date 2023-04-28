@@ -239,6 +239,67 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* Newsletter */
+.footer-block3{
+padding-top: 12px;
+padding-left: 78px;
+}
+.footer-block3-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.input-footer{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: #2f303a;
+padding-left: 16px;
+width: 358px;
+}
+.footer-block3 button{
+  cursor: pointer;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.text-footer-button{
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+padding:10px 24px 10px 40px
+}
+.button-svg-sent{
+  margin-top: 13px;
+  margin-right: 28px;
+  fill: #FFFFFF;
+}
+.input-button-footer{
+  margin-top: 20px;
+
+  display:flex;
+}
+.button-newsletter-footer{
+  display: flex;
+  margin-left: 12px;
+  
+
+}
 /*---Agencja---*/
 /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 .first-page {
