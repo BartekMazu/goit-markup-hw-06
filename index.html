@@ -452,16 +452,20 @@
             </label>
           </form>
           <div class="modal-statue-tekst">
-            <div class="checbox">
-              <input type="checkbox" name="statute" value="statute" />
-              <label>
-                <svg width="16" height="15">
-                  <use href="./images/icons.svg#icon-checkbox-vector"></use>
-                </svg>
-                <svg width="11" height="8">
-                  <use href="./images/icons.svg#icon-accept"></use>
-                </svg>
-              </label>
+            <div class="checkbox">
+              <div class="checkbox__control">
+                <input type="checkbox" id="check" name="check" value="1" class="checkbox__input" />
+                <label class="checkbox__label" for="check"
+                  ><svg width="16" height="15">
+                    <use href="./images/icons.svg#icon-checkbox-vector"></use>
+                  </svg>
+                </label>
+                <label class="checkbox__label2" for="check"
+                  ><svg width="11" height="8">
+                    <use href="./images/icons.svg#icon-accept"></use>
+                  </svg>
+                </label>
+              </div>
             </div>
             <p class="statute-text">
               Oświadczam iż akceptuję <a href="#" class="text-blue">Regulamin</a> i
@@ -477,9 +481,3 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-<div class="chcecbox">
-  <div class="checkbox__control">
-    <input type="checkbox" id="check" name="check" value="1" class="checkbox__input" />
-    <label class="checkbox__label" for="check"></label>
-  </div>
-</div>
