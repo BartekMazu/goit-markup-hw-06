@@ -733,12 +733,16 @@ label {
 .modal-svg-tekst:focus-within {
   fill: #2196f3;
   border-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea-modal:hover,
 .textarea-modal:focus,
 .textarea-modal:focus-within {
   border-color: #2196f3;
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .statute-text {
@@ -803,8 +807,16 @@ label {
 }
 .checkbox__label:hover {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.checkbox__input:focus + .checkbox__label {
+  fill: #2196f3;
+}
+.checkbox__input:focus:checked + .checkbox__label + .checkbox__label2 {
+  fill: #212121;
+  border: #212121 1px solid;
+}
 .checkbox__input:checked + .checkbox__label {
   position: absolute;
   width: 100%;
@@ -819,4 +831,5 @@ label {
   background-color: #2196f3;
   fill: #fff;
   border-radius: 2px;
+  cursor: pointer;
 }
